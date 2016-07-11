@@ -21,10 +21,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
-        android:hint="@string/text_hint"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView" />
+        android:layout_below="@+id/textView"
+        android:hint="@string/text_hint" />
 
     <Button
         android:id="@+id/btn_send"
@@ -43,5 +43,34 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btn_send"
         android:hint="@string/text_hint" />
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_show"
+        android:layout_marginTop="33dp"
+        android:text="Toast" />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Google" />
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_google"
+        android:layout_alignRight="@+id/btn_google"
+        android:layout_below="@+id/btn_google"
+        android:layout_marginTop="23dp"
+        android:text="Call" />
 
 </RelativeLayout>

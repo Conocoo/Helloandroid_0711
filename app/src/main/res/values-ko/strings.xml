@@ -5,4 +5,6 @@
     <string name="Hi_android">하이! 안드로이드!!!</string>
     <string name="btn_name">전송</string>
     <string name="text_hint">Text!!</string>
+    <string name="toast">토스트 메세지</string>
+
 </resources>
